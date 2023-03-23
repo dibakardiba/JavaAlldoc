@@ -1,0 +1,15 @@
+package com.springexample.firstSpringProject;
+
+public class MarioGame {
+	public void up() {
+		System.out.println("Jump ");
+	}
+	public void down() {
+		System.out.println("Down ");
+			}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.springexample.firstSpringProject;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class App02HelloWorldSpring {
+	public static void main(String[] args) {
+		//1.Launch a spring Context
+	var Context = new AnnotationConfigApplicationContext(HelloWorldConfiguration.class);
+		//2. configure the things that we spring to manage - @Configuration Class
+	// HelloWorldConfiguration - @Configuration
+	// name- @Bean 
+	
+	// 3: Retrieving Beans managed by spring
+	
+	System.out.println(Context.getBean("name"));
+	
+	}
+}

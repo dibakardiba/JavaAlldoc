@@ -1,0 +1,31 @@
+package com.pojobrans;
+
+class JavaBeansVsPojoItsPojo {
+	private String text;
+	private int number;
+
+	public String toStirng() {
+		return text + ":" + number;
+	}
+}
+class JavaBeans {
+	
+	// public no arg constructor 
+	public JavaBeans() {
+		
+	}
+	private String text;
+	private int number;
+// getter and setter 
+}
+
+	public class Pojo {
+
+		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+			Pojo pojo = new Pojo();
+			System.out.println(pojo);
+		}
+	}
+
+

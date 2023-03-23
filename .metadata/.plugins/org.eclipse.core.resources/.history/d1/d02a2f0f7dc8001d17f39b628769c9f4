@@ -1,0 +1,20 @@
+package com.springexample.realowrldSpringProject;
+
+import java.util.HashMap;
+
+@RestController
+@RequestMapping(path = "tags")
+@AllArgsConstructor
+public class TestApi {
+	  private TagsQueryService tagsQueryService;
+
+	  @GetMapping
+	  public ResponseEntity getTags() {
+	    return ResponseEntity.ok(
+	        new HashMap<String, Object>() {
+	          {
+	            put("tags", tagsQueryService.allTags());
+	          }
+	        });
+	  }
+	}

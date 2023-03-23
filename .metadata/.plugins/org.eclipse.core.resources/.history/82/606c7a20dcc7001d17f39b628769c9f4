@@ -1,0 +1,5 @@
+package com.springexample.firstSpringProject;
+
+public class HelloWorldConfiguration {
+
+}

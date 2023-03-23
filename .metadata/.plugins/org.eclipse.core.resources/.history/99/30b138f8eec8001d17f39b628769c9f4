@@ -1,0 +1,11 @@
+package com.springbootexample.realowrldSpringbootProject;
+
+import org.springframework.web.bind.annotation.RestController;
+
+//http://localhost:8080/courses
+//courses 
+// course: id,name,author
+@RestController
+public class CourseController {
+
+}

@@ -1,0 +1,14 @@
+package com.springexample.firstSpringProject.helloworld;
+
+import org.springframework.context.annotation.Bean;
+
+import com.springexample.firstSpringProject.GamingConsole;
+import com.springexample.firstSpringProject.PacManGame;
+
+public class GamingConfiguration {
+	@Bean
+	public GamingConsole game() {
+		var game=new PacManGame();
+		return game;
+	}
+}

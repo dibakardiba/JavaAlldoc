@@ -1,0 +1,69 @@
+package com.springexample.firstSpringProject;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+// custom class
+// record featured introduced (released) in JDK 16.
+record Person(String name, int age, Address address) {
+
+};
+//Address -firstLine and city 
+record Address(String firstLine ,String city) {
+	
+};
+@Configuration
+public class HelloWorldConfiguration {
+	@Bean
+	public String name() {
+		return "Dibakar";
+
+	}
+
+	@Bean
+	public int age() {
+		return 16;
+
+	}
+
+//	@Bean
+//	public Person person() {
+//		var person = new Person("Diba", 25);
+//		return person;
+//	}
+	@Bean
+	public Person person() {
+		var person = new Person("Diba", 25,new Address("main street","up"));
+		return person;
+	}
+	
+	@Bean
+	public Person person2MethodCall() {
+		return new Person(name(),age(),address()); // name,age
+	}
+	@Bean
+	public Person person3Parameters(String name, int age, Address address3) {
+		//name, age,address2
+		//autowire (inject them)
+		return new Person(name, age,address3); // name,age
+	}
+	
+	@Bean
+	public Person person4Parameters(String name, int age, Address address) {
+		//name, age,address2
+		//autowire (inject them)
+		return new Person(name, age,address); // name,age
+	}
+	
+	
+	@Bean(name="address2")
+	public Address address() {
+		var address = new Address("khaluebil math", "Burdwan");
+		return address;
+	}
+	@Bean(name="address3")
+	public Address address3() {
+		var address = new Address("pir tala ", "Hyderabad");
+		return address;
+	}
+}

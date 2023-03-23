@@ -1,0 +1,5 @@
+package com.springexample.firstSpringProject.helloworld;
+
+public class GamingConfiguration {
+
+}

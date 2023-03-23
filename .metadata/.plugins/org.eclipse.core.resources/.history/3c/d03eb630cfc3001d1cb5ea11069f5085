@@ -1,0 +1,36 @@
+package org.java;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class ReverseDigit {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+			    Scanner scanner = new Scanner(System.in);
+			    System.out.print("Enter a number: ");
+			    int num = scanner.nextInt();
+
+			    // Convert number to list of digits
+			    List<Integer> digits = new ArrayList<Integer>();
+			    while (num > 0) 
+			      digits.add(num % 10);
+			      num /= 10;
+			    }
+
+			    // Sort the digits in descending order
+			   // Collections.sort(digits, Collections.reverseOrder());
+
+			    // Join the digits back together as a string
+			  //  StringBuilder maxNumBuilder = new StringBuilder();
+			    for (int digit : digits) {
+			      maxNumBuilder.append(digit);
+			    }
+			    String maxNum = maxNumBuilder.toString();
+
+			    System.out.println("The biggest number of " + num + " is " + maxNum);
+			  }
+	}
+

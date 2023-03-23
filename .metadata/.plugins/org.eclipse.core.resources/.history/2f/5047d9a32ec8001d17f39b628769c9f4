@@ -1,0 +1,25 @@
+package com.springexample.firstSpringProject.helloworld;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.springexample.firstSpringProject.GameRunner;
+import com.springexample.firstSpringProject.PacManGame;
+
+public class App03GamingSpringBeans {
+	public static void main(String[] args) {
+
+		
+		
+		// var game = new MarioGame();
+				// var game= new SuperContraGame();
+				var game = new PacManGame();  
+				// 1. object creation
+				// var gameRunner = new GameRunner(marioGame);
+				var gameRunner = new GameRunner(game); 
+				// 2: object Creation + wiring of Dependencies
+				//Game is a dependency of the GameRunner class
+				gameRunner.run();
+		}
+
+	}
+}

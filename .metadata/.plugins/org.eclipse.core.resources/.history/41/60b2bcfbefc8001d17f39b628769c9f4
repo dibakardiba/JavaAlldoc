@@ -1,0 +1,17 @@
+package com.springbootexample.realowrldSpringbootProject;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RestController;
+
+//http://localhost:8080/courses
+
+@RestController
+public class CourseController {
+	//courses 
+	// course: id,name,author
+	
+	public List<Course> retrieveAllCourses(){
+		
+	}
+}

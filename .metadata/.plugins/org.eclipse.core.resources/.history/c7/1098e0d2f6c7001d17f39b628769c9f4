@@ -1,0 +1,8 @@
+package com.springexample.firstSpringProject;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class HelloWorldConfiguration {
+
+}

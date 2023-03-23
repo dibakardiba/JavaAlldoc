@@ -1,0 +1,13 @@
+package com.springexample.realowrldSpringProject;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class RealowrldSpringProjectApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(RealowrldSpringProjectApplication.class, args);
+	}
+
+}

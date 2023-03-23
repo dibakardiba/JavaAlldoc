@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;org.tcs&apos; to &apos;org.tcs.reverse&apos;&#x0D;&#x0A;- Original project: &apos;TCS&apos;&#x0D;&#x0A;- Original element: &apos;TCS/src/org.tcs&apos;&#x0D;&#x0A;- Renamed element: &apos;TCS/src/org.tcs.reverse&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;org.tcs&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;org.tcs" name="org.tcs.reverse" qualified="false" references="true" stamp="1677647689989" textual="false" version="1.0"/>
+</session>

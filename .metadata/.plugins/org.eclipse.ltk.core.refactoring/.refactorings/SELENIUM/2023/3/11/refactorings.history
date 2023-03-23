@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;chrome&apos; in &apos;Test.SELENIUM.FirstTestCase.main(...)&apos; to &apos;driver&apos;&#x0D;&#x0A;- Original project: &apos;SELENIUM&apos;&#x0D;&#x0A;- Original element: &apos;Test.SELENIUM.FirstTestCase.main(String[]).chrome&apos;&#x0D;&#x0A;- Renamed element: &apos;chrome&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;chrome&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;Test.SELENIUM{FirstTestCase.java[FirstTestCase~main~\[QString;@chrome!434!471!444!449!QWebDriver;!0!false" name="driver" references="true" stamp="1678953940607" version="1.0"/>
+</session>

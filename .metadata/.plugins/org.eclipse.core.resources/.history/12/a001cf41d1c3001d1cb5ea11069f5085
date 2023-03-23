@@ -1,0 +1,33 @@
+package Test.SELENIUM;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class FirstTestCase {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub
+		// launch chrome web browser
+
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\hazra\\selenium\\driver\\chromedriver_win32\\chromedriver.exe");
+		WebDriver chrome = new ChromeDriver();
+
+		// launch google web page
+		chrome.navigate().to("https:\\www.google.com");
+		// capture title of webpage and print
+
+		String title = chrome.getTitle();
+		System.out.println("print the title is :: " + title);
+
+		// capture url of the web page
+
+		System.out.println("current url is ::::" + chrome.getCurrentUrl());
+		// capture page source
+
+		System.out.println("create page ::" + chrome.getPageSource());
+
+	}
+
+}
