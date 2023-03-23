@@ -1,0 +1,13 @@
+[
+   {
+      "Unique" : "5940",
+      "Process" : "ApplicationProcess",
+      "Reason" : "Aborting process ApplicationProcess (5940) in VM (id:9, pid:12520, spawner pid:11684, lm set version:1) \nAbortion reason: Capsule Abort exception: SCC/SubscriberDataImpl:R1A01|SdcStateBase.cc:169:removeAllSdDevice:State [SdcIdleState]: Event not allowed sdRemoveAllDevice \n",
+      "Timestamp" : "20220512112344",
+      "CA Directory" : "error_001",
+      "VM" : "PL-6:9",
+      "vCPU" : "9",
+      "PID" : "12520",
+      "SPID" : "11684"
+   }
+]
